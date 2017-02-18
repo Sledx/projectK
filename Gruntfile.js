@@ -8,7 +8,7 @@ watch: {
         tasks: ['sass'],
         options: {
             spawn: false,
-        },
+        }
     }
 },
       
@@ -28,7 +28,7 @@ imagemin: {
         files: [{
             expand: true,
             cwd: 'images/',
-            src: ['**/*.{png,jpg,gif}'],
+            src: ['**/*.{png,jpg,gif,jpeg}'],
             dest: 'images/build/'
         }]
     }
